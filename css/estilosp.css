@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;/*SEPARCION ENTRE CADA ELEMENTO DEL MENU*/
+    padding: 0;/*DEFINIMOS LAS DIMENCIONES DEL BOTON*/
+    width: 100%;/*AQUI INSERTAMOS EL EL ANCHO DEL MENU*/
+    height: 100%;/*AQUI DEFINIMOS LA POSICION HORIZONTAL DEL MENU*/
+}
+.parallax{
+    background:black fixed no-repeat 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#section1{
+background-image: url(imajes/banner-covid-19-1280x549.jpg);
+color: rgb(85, 42, 165);
+font-family: fantasy;
+width: 100%;
+height: 400px;;
+ 
+}

@@ -1,0 +1,182 @@
+/*AQUI VAMOS A INSERTAR COMENTARIOS DE ESTILOS CSS*/
+
+
+/*AQUI INSERTAREMOS UN SELECTOR SIMPLE*/
+
+
+/* ESTE SECTOR VA A MODIFICAR UNA MISMA ETIQUETA*/
+
+h2 {
+    font-size: 2em;
+    /*AQUI DEFINIMOS EL TAMAÑO DEL TEXTO*/
+    color: rgb(61, 102, 88);
+    /*AQUI DEFINIMOS EL COLOR DE TEXTO*/
+    text-align: center;
+    /*AQUI DEFINIMOS LA ALINEACION DEL TEXTO*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*AQUI DEFINIMOS EL TIPO DE FUENTE(LETRA)*/
+}
+
+
+/*AQUI UTILIZAREMOS UN SELECTOR SIMPLE PERSONALIZADO*/
+
+
+/*SELECTOR TIPO ID , SE REPRESENTE CON UN #*/
+
+#parrafito {
+    font-size: 3em;
+    /*AQUI DEFINIMOS EL TAMAÑO DEL TEXTO*/
+    color: rgb(192, 247, 244);
+    /*AQUI DEFINIMOS EL COLOR DE TEXTO*/
+    text-align: right;
+    /*AQUI DEFINIMOS LA ALINEACION DEL TEXTO*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif/*AQUI DEFINIMOS EL TIPO DE FUENTE(LETRA)*/
+}
+
+
+/*AQUI UTILIZAREMOS UN SELECTOR SIMPLE PERSONALIZADO*/
+
+
+/*SELECTOR  TIPO CLASS, SE REPRESENTA CON . */
+
+p.parrafo {
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: italic;
+}
+
+
+/*CLASE LUNES 04/10/2021*/
+
+
+/*AQUI COLOCAMOS UN ESTILO DE CENTRADO DE ELEMENTOS*/
+
+div {
+    display: flex;
+    /*CON ESTA INSTRUCCION PODEMOS UTILIZAR "JUSTIFY-CONTENT"*/
+    justify-content: center;
+    /*AQUI INDICAMOS EL CENTRAR ELEMENTO*/
+}
+
+
+/*AQUI INSERTAMOS ESTILOS A UN BOTON*/
+
+.boton {
+    background-color: lightpink;
+    color: lightsalmon;
+    font-size: 16px;
+    padding: 15px 32px;
+}
+
+
+/*AQUI INSERTAMOS ESTILOS PARA EL MENU*/
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    /*AQUI INSERTAMOS TIPO DE FUENTE*/
+    width: 900px;
+    /*AQUI INSERTAMOS EL ANCHO DEL MENU*/
+    margin: 20px;
+    /*AQUI DEFINIMOS LA POSICION HORIZONTAL DEL MENU*/
+}
+
+.container {
+    clear: both;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+#menu {
+    float: left;
+    left: 50%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#menu li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+#menu li>a {
+    background-color: rgb(34, 107, 52);
+    /*COLOR DEL MENU*/
+    color: rgb(225, 233, 225);
+    /*COLOR DE LA FUENTE*/
+    padding: 30px;
+    /*ANCHO DEL MENU*/
+    margin: 3px;
+    /*SEPAREACION ENTRE CADA ELEMENTO DEL MENU*/
+    display: block;
+    /*ESTILO DE MUESTRA DEL MENU: BLOQUE */
+    min-width: 100px;
+    /*ANCHO DE CADA ELEMENTO DEL MENU*/
+    text-decoration: none;
+    /*AQUI DEFINIMOS LA LINEA SUBRAYADA DEL HIPERVINCULO*/
+}
+
+#menu li>a:hover {
+    color: black;
+    background-color: rgb(231, 230, 225);
+}
+
+#menu>li {
+    float: left;
+    /*ESTO DEFINE LA POSICION DEL MENNU FLOTANTE*/
+    text-align: center;
+    /*ESTO ALINEA EL TEXTO DE CADA BLOQUE DE MENU*/
+}
+
+
+/*DESDE AQUI COMIENZA PARALLAX*/
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax {
+    background: beige fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#section1 {
+    color: white;
+    font-family: fantasy;
+}
+
+.content-select select {
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family: 'Quicksand', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.content-select select:hover {
+    background: #B1E8CD;
+}

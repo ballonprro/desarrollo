@@ -1,0 +1,117 @@
+/*AQUI VAMOS A DEFINIR A INSERTAR COMENTARIOS DE ESTILO CSS*/
+
+
+/*AQUI INSERTAMOS UN SELECTOR SIMPLE*/
+
+
+/*ESTE SECTOR VA A MODIFICAR UNA MISMA ETIQUETA*/
+
+h1 {
+    font-size: 3em;
+    color: rgb(90, 5, 146);
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 3em;
+    color: rgb(240, 8, 8);
+    text-align: center;
+    font-family: cursive;
+}
+
+h3 {
+    font-size: 3em;
+    color: rgb(0, 3, 3);
+    text-align: justify;
+    font-family: cursive;
+}
+
+h4 {
+    font-size: 4em;
+    color: rgb(90, 5, 146);
+    text-align: center;
+    font-family: cursive;
+}
+
+p.parrafo {
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    /*AQUI DEFINIMOS EL ESTILO DE LETRA LETRA CURSIVA*/
+}
+
+
+/*AQUI INCERTAREMOS UNA IMAGEN DE FONDO*/
+
+
+/*IMAGEN DE FONDO*/
+
+body {
+    background-image: url(images/contactanos.png);
+}
+
+
+/*AQUI COLOCAMOS UN ESTILO DE CENTRADO DE ELEMENTOS*/
+
+div {
+    display: flex;
+    /*CON ESTA INSTRUCCION PODEMOS UTILIZAR "JUSTIFY-CONTENT*/
+    justify-content: center;
+    /*AQUI INDICAMOS EL CENTRAR UN ELEMENTO*/
+}
+
+
+/*AQUI INSERTAMOS EL ESTILO PARA NUESTRO MENU*/
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    /*AQUI INSERTAMOS EL TIPO DE FUENTE*/
+    width: 900px;
+    /*AQUI INSERTAMOS EL EL ANCHO DEL MENU*/
+    margin: 20px;
+    /*AQUI DEFINIMOS LA POSICION HORIZONTAL DEL MENU*/
+}
+
+ul {
+    list-style: none;
+    /*ELIMNAMOS VIÑETAS*/
+    margin: 20px;
+    padding: 10px;
+    /*AQUI DEFINIMOS LA POSICION HORIZONTAL DEL MENU*/
+}
+
+#menu {
+    overflow: hidden;
+    /*ESTE ATRIBUTO PERMITE VISUALIZAR SOLO SOLO EL TEXTO QUE CABE EN LA CAJA DE MENU*/
+}
+
+#menu li>a {
+    background-color: rgb(247, 247, 247);
+    /*COLOR DEL MENU*/
+    color: rgb(77, 1, 255);
+    /*COLOR DE LA FUENTE*/
+    padding: 30px;
+    /*ANCHO DEL MENU*/
+    margin: 3px;
+    /*SEPARCION ENTRE CADA ELEMENTO DEL MENU*/
+    display: block;
+    /*ESTILO DE MUESTRA DEL MENU: BLOQUE*/
+    min-width: 100px;
+    /*ANCHO DE CADA ELEMENTO DEL MENU*/
+    text-decoration: none;
+    /*AQUI ELIMINAMOS LA LINEA SUBRAYADA DEL HIPERVINCULO*/
+}
+
+#menu li>a:hover {
+    color: cornsilk;
+    background-color: crimson;
+}
+
+#menu>li {
+    float: left;
+    /*ESTO DEFINE LAPISICION DEL MENU FLOTANTE*/
+    text-align: center;
+    /*ESTO ALINEA EL TEXTO DE CADA BLOQUE DEL MENU*/
+}
