@@ -23,36 +23,27 @@
           <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="index.html" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
                       Inicio
                     </a>
                   </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown" href="index.html" id="navbarDarkDropdownMenuLink" data-bs-toggle="dropdown" role="button" aria-expanded="false">
-                  Productos
+                <a class="nav-link dropdown" href="UCI" id="navbarDarkDropdownMenuLink" data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                  Camas U.C.I
                 </a>
                 
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="accesorios.html" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
-                  Carrito de Compras
+                <a class="nav-link" href="PO" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
+                  Puntos de Oxígeno
                 </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link" href="nosotros.html" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
-                  ¿Quienes somos?
+                  Consultas médicas
                 </a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="login.html" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false">
-                  Login
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="soporte.html" id="navbarDarkDropdownMenuLink" role="button"  aria-expanded="false">
-                  Soporte
-                </a>
-              </li>
+
             </ul>
           </div>
         </form>
@@ -79,10 +70,13 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="embed-responsive embed-responsive-16by9">
+                      
                                     <h2>Lima Sur</h2>
                                 </div>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d85714.74567634982!2d-76.93210124460592!3d-12.242055032274347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitales!5e0!3m2!1ses!2spe!4v1637195797458!5m2!1ses!2spe" width="370" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                <form action="/ucisur" method="POST"> 
                                 <button class="button" href="#">Solicitar información</button>
+                              </form>
                             </div>
                             <div class="col-sm-4">
                                 <div class="embed-responsive embed-responsive-16by9">
@@ -91,16 +85,18 @@
                                   </h2>
                                 </div>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d85763.36170722064!2d-77.01373076430491!3d-12.091368205349713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitales!5e0!3m2!1ses!2spe!4v1637196058548!5m2!1ses!2spe" width="370" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+                                <form action="/ucicentro" method="POST"> 
                                 <button class="button" href="#">Solicitar información</button>
-                                  
+                              </form>
                             </div>
                             <div class="col-sm-4">
                                 <div class="embed-responsive embed-responsive-16by9">
                                    <h2>Lima Norte</h2>
                                 </div>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d181869.5545706798!2d-77.11104250204745!3d-11.878590439959154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitales!5e0!3m2!1ses!2spe!4v1637196201867!5m2!1ses!2spe" width="370" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                <button class="button" href="#">Solicitar información</button>
+                                <form action="/ucinorte" method="POST"> 
+                                <button class="button" href="ucinorte.ejs">Solicitar información</button>
+                              </form>
                               </div>
             </div>
         </div>

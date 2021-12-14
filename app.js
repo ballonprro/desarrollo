@@ -9,6 +9,9 @@ const indexRoutes = require('./src/routes/index')
 app.set('port', process.env.PORT || 3000 )// Setear el puerto
 app.set('views' , path.join(__dirname, 'src/views'))
 app.set('view engine', 'ejs')// Seteamos el motor de vista , ejs
+app.use('/css', express.static(path.join(__dirname, 'src/views/css')))
+app.use('/imagen', express.static(path.join(__dirname, 'src\views\img')))
+
 
 app.use(logger('dev'))
 app.use(express.json())

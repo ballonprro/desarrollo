@@ -1,0 +1,15 @@
+POST http://localhost:3000/posur
+Content-Type: application/json
+
+{
+    "NL": "Asociación de las Bienaventuranzas y Cáritas Lurín ",
+    "HA": "Lunes a Domingo de 8:00 am a 6:00 pm",
+    "Dirección": "Av. El Sol Mz. 13 U Comité 16 Tablada de Lurín – Villa María del Triunfo",
+    "Teléfono": "01-2807133",
+    "Precio": "Gratuito (presentar DNI  receta médica)" 
+    
+}
+
+
+
+

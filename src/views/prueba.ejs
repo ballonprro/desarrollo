@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruena de buscar info</title>
+</head>
+<body>
+    <h1>En estra prueba se traerá información de las camas UCI</h1>
+    <hr>
+    <form action="/prueba2" method="POST"> 
+        <label for="">Consultar Centro de Salud</label>
+        <button type="submit"> Consultar </button>
+        <!-- Con [index] llamamos a todos los documentos, con [x] llamamos a un documento específico -->
+    </form> 
+    <ul>
+    <% if(typeof datos !== 'undefined'){ %>
+        <% for(index in datos){ %>
+            <%= datos[0].Hospital %> <br>
+        <% } %>
+    <% } %>
+</ul>
+<ul>
+    <% if(typeof datos !== 'undefined'){ %>
+        <% for(index in datos){ %>
+            <%= datos[0].Contacto %> <br>
+        <% } %>
+    <% } %>
+</ul>
+</body>
+</html>
