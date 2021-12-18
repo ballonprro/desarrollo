@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: letra2;
+    src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: letra3;
+    src: url(../font/LT\ Amber\ Regular.otf);
+}
+
+
+.encabezado{
+    width: 100%;
+    padding: 20px; /* margenes para separar del borde*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/banner1.png);
+}
+.cuerpo1{
+    text-align: center;
+    color: #fff;
+}
+.cuerpo2{
+    text-align: center;
+    color: #fff;
+}
+.encabezado .letras{
+    background-attachment: fixed;
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+    margin: auto;
+    
+}
+.mensaje1{
+    position: relative;
+    left: 80px;
+    top: -55px;
+}
+.text1{
+    position: relative;
+    left: 80px;
+    top: -35px;
+}
+.boton1{
+    position: relative;
+    left: 80px;
+    top: -20px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #dd3737;
+    border-radius: 6px;
+    border: 2px solid #0000;
+  }
+  .boton1:hover{
+    color: #d61212;
+    background-color: #ffffff;
+  }
+.llamada1{
+    position: relative;
+    left: 80px;
+    top: -55px;
+}
+.text2{
+    position: relative;
+    left: 80px;
+    top: -35px;
+}
+.iconm{
+    position: relative;
+    top: 20px;
+}
+.mensaje2{
+    position: relative;
+    left: 80px;
+    top: -32px;
+}
+.text3{
+    position: relative;
+    left: 83px;
+    top: -13px;
+
+}
+.boton2{
+    position: relative;
+    left: 80px;
+    top: 3px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #dd3737;
+    border-radius: 6px;
+    border: 2px solid #0000;
+  }
+  .boton2:hover{
+    color: #d61212;
+    background-color: #ffffff;
+  }
+.iconm2{
+    position: relative;
+    top: 21px;
+}
+.llamada2{
+    position: relative;
+    left: 80px;
+    top: -38px;
+}
+.text4{
+    position: relative;
+    left: 80px;
+    top: -17px;
+}
+.rec{
+    text-align: center;
+    padding: 20px;
+    font-family: letra3;
+}
+.menc{
+    text-align: center;
+    font-family: letra3;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+ .menc :hover{
+     color: black;
+ }
+ .fondo{
+    width: 100%;
+    padding: 20px; /* margenes para separar del borde*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/def.jpg);
+
+}
+.princip a{
+    text-decoration: none;
+    color: #fff;
+    
+
+ }
+ .secund a{
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+ }
+ .secund:hover{
+     color: #fff;
+ }
+
+
+footer{
+    bottom: auto;
+}
+footer p{
+    color: #fff;
+    font-size:20px ;
+}
+.redes a{
+    position: relative;
+    top: -40px;
+    left: 1140px;
+    font-size: 30px;
+    color: #fff;
+}
